@@ -1,0 +1,8 @@
+Package: dfrtopics
+Version: 0.2.5
+Imports: Matrix, stringr, dplyr, lazyeval, magrittr, Rcpp, RcppEigen
+LinkingTo: Rcpp, RcppEigen
+Suggests: mallet, ggplot2, scales, testthat, readr, bigmemory (>= 4.5.19), bigtabulate (>=
+          1.1.5), XML, jsonlite, lubridate, tidyr, knitr, rmarkdown, servr
+License: MIT | file LICENSE
+MD5sum: 24ecb0febc106494dac0ce10b8c161cf
