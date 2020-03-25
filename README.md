@@ -10,11 +10,4 @@ if (!require("drat")) {
 drat::addRepo("agoldst")
 ```
 
-Then `install.packages("dfrtopics")` (etc.) ought to work.
-
-# R packages hosted here
-
-- [dfrtopics](https://github.com/agoldst/dfrtopics). Explore topic models.
-- [mlaibr](https://github.com/agoldst/mlaibr). Wrangle bulk-exported MLA International Bibliography data.
-- [scuro](https://github.com/agoldst/scuro). RMarkdown presentation format.
-
+Then `install.packages("dfrtopics")` (etc.) ought to work. Available packages are listed at <https://agoldst.github.io/drat>.
