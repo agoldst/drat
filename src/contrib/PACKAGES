@@ -2,9 +2,8 @@ Package: dfrtopics
 Version: 0.2.5
 Imports: Matrix, stringr, dplyr, lazyeval, magrittr, Rcpp, RcppEigen
 LinkingTo: Rcpp, RcppEigen
-Suggests: mallet, ggplot2, scales, testthat, readr, bigmemory (>=
-        4.5.19), bigtabulate (>= 1.1.5), XML, jsonlite, lubridate,
-        tidyr, knitr, rmarkdown, servr
+Suggests: mallet, ggplot2, scales, testthat, readr, bigmemory (>= 4.5.19), bigtabulate (>=
+          1.1.5), XML, jsonlite, lubridate, tidyr, knitr, rmarkdown, servr
 License: MIT | file LICENSE
 MD5sum: d098df47cbed3dfef83e09d025353747
 NeedsCompilation: yes
@@ -16,4 +15,12 @@ Imports: stringr, dplyr, lazyeval, tidyr, lubridate, readr, magrittr
 Suggests: testthat
 License: MIT
 MD5sum: 6a4790bc01c251ffdab1e7b89efb67e7
+NeedsCompilation: no
+
+Package: scuro
+Version: 0.2
+Depends: R (>= 3.2.2)
+Imports: knitr, rmarkdown, tikzDevice
+Suggests: ggplot2 (>= 2.2.0), testthat
+MD5sum: 0f826a19835add97cde5a16b5acba6b9
 NeedsCompilation: no
